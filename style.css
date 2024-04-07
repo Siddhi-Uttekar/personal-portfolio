@@ -1,6 +1,7 @@
 img{
-    height:20rem;
-    width:20rem;
+    height:24rem;
+    width:26rem;
+    z-index: 1;
 }
 
 .skill-icons{
@@ -9,3 +10,180 @@ img{
     width:5rem;
 
 }
+.conatiner{
+    padding: 2em;
+    padding-left:5em;
+}
+
+body{
+    background-color: #090C1A;
+    margin-top: 3rem;
+}
+
+.name{
+   color: #EDEEF7;
+   font-family: 'Noto Sans Batak';
+   font-size:  1.7rem;
+   padding-right: 46rem;
+
+}
+
+nav{
+    display: flex;
+    gap:46px;
+   font-family: 'Noto Sans Batak';
+   font-size:  1.5rem;
+
+}
+
+a{
+    color: #EDEEF7;
+    text-decoration: none !important;
+
+}
+
+a:hover{
+    color: rgb(95, 56, 169);
+
+}
+
+.social-media{
+
+    font-size:  1.7rem;
+
+}
+
+.home{
+    display:flex;
+    justify-content: space-between;
+}
+
+.home-intro{
+    color: #EDEEF7;
+    font-size: 2rem;
+
+
+}
+
+span{
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,70,238,1) 2%, rgba(82,208,231,1) 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+.circle {
+    background-image: radial-gradient(circle,
+      #FFCC00 0%,
+      #FFF1BC 100%);
+  }
+
+.about-skill-heading{
+    display: flex;
+    justify-content:left;
+    gap:50rem;
+
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.about{
+    color: #EDEEF7;
+   font-family: 'Noto Sans Batak';
+   font-size: 2rem;
+   width:30rem;
+   text-align:justify;
+   letter-spacing: 1px;
+}
+
+h2{
+    color: #EDEEF7;
+   font-family: 'Noto Sans Batak';
+   font-size: 2.5rem;
+
+}
+
+.my-skills{
+    display:flex;
+    width: 40rem;
+    gap:40px;
+    justify-content: space-between;
+
+}
+
+.skill-text{
+    display:flex;
+    gap:33px;
+    color: #EDEEF7;
+   font-family: 'Noto Sans Batak';
+   font-size: 20px;
+   font-weight: 100;
+
+}
+
+.project1{
+    display:flex;
+    gap:25rem;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.project2{
+    display:flex;
+    gap:25rem;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.project{
+    color: #EDEEF7;
+   font-family: 'Noto Sans Batak';
+   font-size: 20px;
+
+}
+
+
+
+.project-image{
+    width:30rem;
+    opacity:1;
+    transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.project-image:hover{
+    opacity:0;
+    background-color:aqua;
+}
+
+.middle {
+    width:15rem;
+    font-size: xx-large;
+
+    justify-content: center;
+    transition: .5s ease;
+    opacity: 0;
+     position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: #EDEEF7;
+    z-index: 1;
+  }
+
+  .project:hover .project-image {
+    opacity: 0.3;
+  }
+
+  .project:hover .middle {
+    opacity: 1;
+    z-index: 1;
+  }
