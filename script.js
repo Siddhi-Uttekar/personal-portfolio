@@ -12,7 +12,7 @@ function sendEmail() {
 		message;
 
 	email.send({
-		SecureToken: "40b3c59b-369e-4371-b0bb-de6ace4d3415",
+		SecureToken: "0126b54a-4d8c-4ca3-beb3-d3cbb707921f",
 		To: "ssuttekar14116@gmail.com",
 		From: "ssuttekar14116@gmail.com",
 		Subject: "Contact form submission",
